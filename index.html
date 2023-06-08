@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <script
+      src="https://kit.fontawesome.com/fcf31b66d4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <title>Grid in Web Page</title>
+  </head>
+  <body class="main-container">
+    <nav>
+      <div>
+        <img class="img-nav" src="images/Group 2.svg" alt="Web Docs logo" />
+      </div>
+      <div>
+        <a href="#pricing" alt="link to pricing page"><p class="nav-div-p">Pricing</p></a>
+      </div>
+      <div>
+        <a href="#company" alt="link to company page"><p class="nav-div-p">Company</p></a>
+      </div>
+      <div>
+        <a href="#blog" alt="link to blog page"><p class="nav-div-p">Blog</p></a>
+      </div>
+      <form class="nav-form"> 
+        <a href="#login" alt="link to login page"><p class="nav-div-p nav-form-p">Log in</p></a>
+        <button class="get-started" type="submit">Get Started</button>
+      </form>
+    </nav>
+    <section class="section-container1">
+      <header class="section1-item1">
+        <h5>Home of your websites</h5>
+        <h3>Web Docs</h3>
+      </header>
+      <div class="section1-item2">
+        <h1>We build your <em>beautiful</em> website</h1>
+        <p class="section1-item2-p">
+          We work with people all over the world to create tailor-made web
+          experiences
+        </p>
+      </div>
+      <div class="section1-item3">
+        <div class="section1-item3-div1">
+          <h4>Development</h4>
+          <div><p>
+            I specialize in developing websites using Webflow, a powerful
+            platform that allows for easy customization and responsive design. I
+            have experience building websites for a variety of industries, from
+            small businesses to large corporations. My focus is always on
+            creating functional and smooth websites that generate traffic.
+          </p>
+          <a href="#Webflow" alt="link to Webflow page"><p class="border-p">Webflow</p></a>
+          <a href="#Developmebt" alt="link to Development page"
+            ><p class="border-p">Development</p></a
+          ></div>
+        </div>
+        <div class="section1-item3-div2">
+          <h4>Web Design</h4>
+          <div><p>
+            Art direction is the process of bringing together all of the
+            creative elements of a project to create a cohesive and visually
+            stunning end product. I work with clients to develop a concept and
+            bring it to life through art direction. I believe that attention to
+            detail and a clear vision are key to creating truly memorable
+            designs.
+          </p>
+          <a href="#ConceptDesign" alt="link to Concept design page"
+            ><p class="border-p">Concept design</p></a
+          >
+          <a href="#BrandIdentity" alt="link to Brand identity page"
+            ><p class="border-p">Brand identity</p></a
+          ></div>
+        </div>
+      </div>
+    </section>
+    <section class="section-container2">
+      <div class="section2-item1">
+        <img src="Images/Featured icon.svg" alt="icon" width="50px" />
+        <h2>All you need to manage your website effectively</h2>
+        <p class="section2-p">Web hosting in less than 5 minutes.</p>
+      </div>
+      <div class="section2-item2">
+        <div>
+          <i class="section-icons fa-regular fa-comments"></i>
+          <h4>Share team inboxes</h4>
+          <p class="section2-p">
+            Whether you have a team of 2 or 200, our shared team inboxes keep
+            everyone on the same page and in the loop.
+          </p>
+          <a href="#View-integration"
+            ><p class="purple-p">
+              View integration <i class="fa-solid fa-arrow-right"></i></p
+          ></a>
+        </div>
+        <div>
+          <i class="section-icons fa-solid fa-up-right-from-square"></i>
+          <h4>Manage your team</h4>
+          <p class="section2-p">
+            Measure what matters with Untitled’s easy-to-use reports. You can
+            filter, export, and drilldown on the data.
+          </p>
+          <a href="#View-integration"
+            ><p class="purple-p">
+              View integration <i class="fa-solid fa-arrow-right"></i></p
+          ></a>
+        </div>
+        <div>
+          <i class="section-icons fa-solid fa-bolt"></i>
+          <h4>Deliver instant answers</h4>
+          <p class="section2-p">
+            An all-in-one customer service platform that helps you balance
+            everything your customers need to be happy.
+          </p>
+          <a href="#View-integration"
+            ><p class="purple-p">
+              View integration <i class="fa-solid fa-arrow-right"></i></p
+          ></a>
+        </div>
+        <div>
+          <i class="section-icons fa-regular fa-face-smile"></i>
+          <h4>Connect with customers</h4>
+          <p class="section2-p">
+            Solve a problem or close a sale in real-time with chat. If no one is
+            available, customers are seamlessly routed to email.
+          </p>
+          <a href="#View-integration"
+            ><p class="purple-p">
+              View integration <i class="fa-solid fa-arrow-right"></i></p
+          ></a>
+        </div>
+      </div>
+    </section>
+    <section class="section-container3">
+      <header class="section3-item1">
+        <h5>Contact Us</h5>
+        <h1>Get in touch</h1>
+        <h4>We'd love to hear from you. Please fill out this form.</h4>
+      </header>
+      <form class="section3-form" action="" method="post">
+        <fieldset>
+          <div class="form-div name">
+            <div class="form-div">
+              <label for="firstname">First Name</label>
+              <input
+                type="text"
+                name="firstname"
+                id="firstname"
+                placeholder="First Name"
+                maxlength="32"
+                pattern="[A-Za-z]{1,32}"
+                required
+              />
+            </div>
+            <div class="form-div">
+              <label for="lastname">Last Name</label>
+              <input
+                type="text"
+                name="lastname"
+                id="lastname"
+                placeholder="Last Name"
+                maxlength="32"
+                pattern="[A-Za-z]{1,32}"
+                required
+              />
+            </div>
+          </div>
+          <div class="form-div">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="you@company.com"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+              required
+            />
+          </div>
+          <div class="form-div">
+            <label for="phone">Phone Number</label>
+            <div class="form-div phone-input">
+              <select id="countries">
+                <option value="UA">UA</option>
+                <option value="UK">UK</option>
+                <option value="US">US</option>
+                <option value="DE">DE</option>
+              </select>
+              <input
+                list="countries"
+                type="number"
+                name="phone"
+                id="phone"
+                placeholder="+1 (555) 000-0000"
+                pattern="[+]?\d{1,2}[-\s]?\d{3}[-\s]?\d{3}[-\s]?\d{4}"
+              />
+            </div>
+          </div>
+          <div class="form-div message">
+            <label for="message">Message </label>
+            <textarea
+              id="message"
+              name="message"
+              rows="6"
+              placeholder="Leave us a message..."
+            ></textarea>
+          </div>
+          <div class="row">
+            <input type="checkbox" id="agree" name="agree" />
+            <label class="checkbox-label" for="agree"
+              >You agree to our friendly
+              <a href="#privacy-policy">privacy policy</a></label
+            >
+          </div class="form-div">
+          <div>
+            <button class="section3-button" type="submit">Send message</button>
+          </div>
+        </fieldset>
+      </form>
+    </section>
+    <footer>
+      <div class="footer-row1">
+        <div class="footer-i grid-for-img">
+          <img class="img-i" src="images/Document.svg" alt="Web Docs icon" />
+          <p class="icon-p">Web Docs</p>
+        </div>
+        <div class="footer-p">
+          <h5>Features</h5>
+          <a href="#SSO"><p>SSO</p></a>
+          <a href="#API-Integration"><p>API Integration</p></a>
+          <a href="#App-Directory"><p>App Directory</p></a>
+        </div>
+        <div class="footer-p">
+          <h5>Pricing</h5>
+          <a href="#Education"><p>Education</p></a>
+          <a href="#Enterprise"><p>Enterprise</p></a>
+          <a href="#Pro"><p>Pro</p></a>
+        </div>
+        <div class="footer-p">
+          <h5>Company</h5>
+          <a href="#About-Us"><p>About Us</p></a>
+          <a href="#Careers"><p>Careers</p></a>
+          <a href="#Leadership"><p>Leadership</p></a>
+        </div>
+        <div class="footer-p">
+          <h5>Blog</h5>
+          <a href="#DocBank"><p>DocBank 101</p></a>
+          <a href="#Using-Table"><p>Using Tables in DocBank</p></a>
+        </div>
+      </div>
+      <div class="footer-row2">
+        <a href="https://www.instagram.com/" target="_blank"
+          ><img
+            src="images/instagram 1.svg"
+            alt="instagram icon"
+            width="20px"
+            height="18px"
+        /></a>
+        <a href="https://twitter.com/" target="_blank"
+          ><img
+            src="images/twitter 1.svg"
+            alt="twitter icon"
+            width="25px"
+            height="18px"
+        /></a>
+        <a href="https://www.youtube.com/" target="_blank"
+          ><img
+            class="youtube"
+            src="images/youtube.png"
+            alt="youtube icon"
+            width="20px"
+            height="16px"
+        /></a>
+      </div>
+      <div class="footer-row3">&copy; 2023 All rights reserved Impressum</div>
+    </footer>
+  </body>
+</html>
