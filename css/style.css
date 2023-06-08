@@ -11,11 +11,13 @@ body {
 nav {
   display: grid;
   grid-template-rows: 1fr;
-  grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   align-self: center;
   margin-top: 25px;
   align-items: center;
 }
+
+
 
 .img-nav {
   margin-bottom: 20px;
@@ -340,6 +342,23 @@ img {
     grid-template-columns: 1fr;
     grid-template-rows: minmax(50px, 1fr);
   }
+
+  nav {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  nav a.icon {
+    color: #7f56d9;
+    justify-self: end;
+    margin-right: 20px;
+    font-size: 30px;
+  }
+
+  #myLinks {
+    display: none;
+    margin-left: 20px;
+  }
+
   .section-container1 {
     grid-template-columns: minmax(300px, 1fr);
     grid-template-rows: 1fr;
@@ -403,6 +422,15 @@ img {
 }
 
 @media screen and (min-width: 451px) {
+  .icon {
+    display: none;
+  }
+  
+  #myLinks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1.2fr;
+  }
+
   .section3-form {
     margin-bottom: 40px;
   }
